@@ -42,7 +42,7 @@ document.querySelector('.again').addEventListener('click', function() {
     document.querySelector('.number-input').value = ''
     score = 20
     document.querySelector('.score').textContent = score
-    displayGuessingMessage('Начни угадывать!')
+    document.querySelector('.guess-message').textContent = ('Начни угадывать!')
     document.querySelector('.question').textContent = '???'
     document.querySelector('body').style.backgroundColor = 'black'
     document.querySelector('.question').style.width = '25rem'
